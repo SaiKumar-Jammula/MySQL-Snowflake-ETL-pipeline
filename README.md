@@ -1,6 +1,4 @@
-# MySQL-Snowflake-ETL-pipeline
-
-# Python ETL for Airbnb Data (MySQL to Snowflake) 💾➡️❄️
+# MySQL-Snowflake-ETL-pipeline💾➡️❄️
 
 This project implements a simple Extract, Transform, Load (ETL) pipeline written in Python using a Jupyter Notebook. It extracts Airbnb listing data from a **MySQL** database, performs data cleaning and type conversion using **Pandas**, and then loads the cleaned data into a **Snowflake** data warehouse.
 
