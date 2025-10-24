@@ -46,7 +46,7 @@ Python
 connection = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="<YOUR_MYSQL_PASSWORD>", # Example: "saikumar"
+    password="<YOUR_MYSQL_PASSWORD>", 
     database="my_db_etl",
     port=3306
 )
@@ -55,9 +55,9 @@ Snowflake Connection (Loading):
 Python
 
 conn = snowflake.connector.connect(
-    user="<YOUR_SNOWFLAKE_USER>", # Example: "SAIKUMAROFFCL"
-    password="<YOUR_SNOWFLAKE_PASSWORD>", # Example: "Jammula@1434567"
-    account="<YOUR_SNOWFLAKE_ACCOUNT>", # Example: "QQAUQSK-JVB70993"
+    user="<YOUR_SNOWFLAKE_USER>", 
+    password="<YOUR_SNOWFLAKE_PASSWORD>", 
+    account="<YOUR_SNOWFLAKE_ACCOUNT>",
     warehouse="COMPUTE_WH",
     database="DEMO_DB",
     schema="PUBLIC"
